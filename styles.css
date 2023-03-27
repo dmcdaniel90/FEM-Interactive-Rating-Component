@@ -1,24 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
 
-body {
-  background: #000;
-  font-family: "Overpass", sans-serif;
+:root {
+  --orange: hsl(25, 97%, 53%);
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(217, 12%, 63%);
+  --medium-gray: hsl(216, 12%, 54%);
+  --dark-blue: hsl(213, 19%, 18%);
+  --very-dark-blue: hsl(216, 12%, 8%);
 }
 
-h1 {
-  font-weight: 700;
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  font-family: 'Overpass', sans-serif;
+}
+
+h3 {
+  font-weight: 400;
+  color: var(--white);
 }
 
 p {
   font-weight: 400;
   font-size: 0.9rem;
+  color: var(--light-gray);
 }
 
 main {
-  width: 65%;
-  min-height: 300px;
+  max-width: 350px;
   max-height: 50vh;
-  background: grey;
+  background: transparent;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -28,27 +44,36 @@ main {
 
 .card {
   border-radius: 20px;
+  background: var(--very-dark-blue);
 }
 
 .circle {
-  background: yellow;
+  background: var(--dark-blue);
   border-radius: 50%;
   width: 45px;
   height: 45px;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: var(--medium-gray);
 }
 
 button {
   height: 55px;
-  background: orange;
+  background: var(--orange);
+  border-color: transparent;
   border-radius: 25px;
+  color: var(--white);
+  font-size: 0.9em;
+  letter-spacing: 1px;
 }
 
 .hide {
   display: none;
 }
 
-.attribution { font-size: 11px; text-align: center; margin-top: 0; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 0;
+}
