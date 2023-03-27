@@ -47,6 +47,13 @@ main {
   background: var(--very-dark-blue);
 }
 
+.card-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .circle {
   background: var(--dark-blue);
   border-radius: 50%;
@@ -56,6 +63,15 @@ main {
   justify-content: center;
   align-items: center;
   color: var(--medium-gray);
+}
+
+#myRating {
+  min-width: 160px;
+  height: 30px;
+  background: var(--dark-blue);
+  color: var(--orange);
+  font-weight: 400;
+  font-size: 0.8em;
 }
 
 button {
