@@ -65,6 +65,17 @@ main {
   color: var(--medium-gray);
 }
 
+#ratingBar > .circle:hover {
+  background: var(--light-gray);
+  color: var(--white);
+  cursor: pointer;
+}
+
+#ratingBar > .circle-active {
+  background: var(--orange);
+  color: var(--white);
+}
+
 #myRating {
   min-width: 160px;
   height: 30px;
@@ -82,6 +93,11 @@ button {
   color: var(--white);
   font-size: 0.9em;
   letter-spacing: 1px;
+}
+
+button:hover {
+  background: var(--white);
+  color: var(--orange);
 }
 
 .hide {
