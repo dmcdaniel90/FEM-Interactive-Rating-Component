@@ -61,6 +61,9 @@ This quick project helped me continue improving my skills and speed and completi
 
 To handle the state change between the different card layouts, I used a few basics I picked up from jQuery to handle the click events and DOM manipulation.
 
+I also learned where to find Github Status should it ever go down...
+[Github Status](https://githubstatus.com)
+
 ### Continued development
 
 I am currently learning to improve my CSS and Bootstrap usage by using SCSS, so this may be a project to improve upon later.
