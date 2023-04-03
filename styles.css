@@ -95,9 +95,11 @@ button {
   letter-spacing: 1px;
 }
 
-button:hover {
-  background: var(--white);
-  color: var(--orange);
+@media (hover: hover) {
+  button:hover {
+    background: var(--light-gray);
+    color: var(--orange);
+  }
 }
 
 .hide {
@@ -109,3 +111,5 @@ button:hover {
   text-align: center;
   margin-top: 0;
 }
+
+
